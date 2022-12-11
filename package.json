@@ -1,0 +1,22 @@
+{
+  "name": "sherlock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gitSync": "git fetch --all && git stash && git pull && git stash pop",
+    "gitUpdate": "git add . && git commit -m\"update sherlock,\" && yarn gitSync && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louiscklaw/sherlock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/louiscklaw/sherlock/issues"
+  },
+  "homepage": "https://github.com/louiscklaw/sherlock#readme"
+}
