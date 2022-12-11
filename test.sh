@@ -12,11 +12,14 @@
 # python3 sherlock man1130
 # # python3 sherlock man1130 --print-all
 
-python3 sherlock Man1130
+# python3 sherlock Man1130
 # python3 sherlock Man1130 --print-all
 
-python3 sherlock stephanie1104
+# python3 sherlock stephanie1104
 # python3 sherlock stephanie1104 --print-all
 
-python3 sherlock payyyyyy
+# python3 sherlock payyyyyy
 # python3 sherlock payyyyyy --print-all
+
+python3 sherlock yeung_sonson
+# python3 sherlock yeung_sonson --print-all
