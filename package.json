@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "gitSync": "git fetch --all && git stash && git pull && git stash pop",
-    "gitUpdate": "git add . && git commit -m\"update sherlock,\" && yarn gitSync && git push"
+    "gitUpdate": "git add . && git commit -m\"update sherlock,\" && yarn gitSync && git push",
+    "deploy": "yarn gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/louiscklaw/sherlock/issues"
   },
-  "homepage": "https://github.com/louiscklaw/sherlock#readme"
+  "homepage": "https://github.com/louiscklaw/sherlock#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }

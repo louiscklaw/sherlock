@@ -21,5 +21,17 @@
 # python3 sherlock payyyyyy
 # python3 sherlock payyyyyy --print-all
 
-python3 sherlock yeung_sonson
+# python3 sherlock yeung_sonson
 # python3 sherlock yeung_sonson --print-all
+
+# python3 sherlock jasonphf
+# # python3 sherlock jasonphf --print-all
+
+# python3 sherlock yijiachin1
+# # python3 sherlock yijiachin1 --print-all
+
+
+rm -rf sherlock/__pycache__
+
+python3 sherlock wongraymondb --output ./dist/wongraymondb.html
+# python3 sherlock wongraymondb --print-all
