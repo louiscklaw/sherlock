@@ -19,7 +19,9 @@ rm -rf sherlock/__pycache__
 # python3 sherlock laitof --output ./dist/laitof.html &
 # python3 sherlock swagaholic --output ./dist/swagaholic.html &
 # python3 sherlock sundayla123 --output ./dist/sundayla123.html &
-python3 sherlock kylema11201 --output ./dist/kylema11201.html &
+# python3 sherlock kylema11201 --output ./dist/kylema11201.html &
+# python3 sherlock played --output ./dist/played.html &
+# python3 sherlock jacksonyeet --output ./dist/jacksonyeet.html &
 
 
 wait
