@@ -1,4 +1,8 @@
-# Virtual Environments
+node_modules
+
+dist
+
+# Virtual Environment
 venv/
 bin/
 lib/
