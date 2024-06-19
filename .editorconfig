@@ -11,7 +11,7 @@ curly_bracket_next_line = false
 spaces_around_operators = true
 
 [*.{markdown,md}]
-trim_trailing_whitespace = false
+trim_trailing_whitespace = true
 
 [*.py]
 indent_size = 4
